@@ -190,6 +190,22 @@ MONSTER_STATS = {
       }]},
       "Valrath Tracker": {	
       "level": [{
+          "level": 0,
+          "normal": {
+            "health": 4,
+            "move": 0,
+            "attack": 2,
+            "range": 4,
+            "attributes": []
+          },
+          "elite": {
+            "health": 7,
+            "move": 0,
+            "attack": 3,
+            "range": 5,
+            "attributes": []
+          }
+      },{
           "level": 5,
           "normal": {
             "health": 8,
