@@ -7,7 +7,79 @@ SPECIAL_VALUES =
 
 MONSTER_STATS = {
   "monsters": {
-	  "Example Deck": {	
+      "Aesther Ashblade": {	
+      "level": [{
+          "level": 0,
+          "normal": {
+            "health": 4,
+            "move": 0,
+            "attack": 2,
+            "range": 4,
+            "attributes": []
+          },
+          "elite": {
+            "health": 7,
+            "move": 0,
+            "attack": 3,
+            "range": 5,
+            "attributes": []
+          }
+      }]},
+      "Aesther Scout": {	
+      "level": [{
+          "level": 0,
+          "normal": {
+            "health": 4,
+            "move": 0,
+            "attack": 2,
+            "range": 4,
+            "attributes": []
+          },
+          "elite": {
+            "health": 7,
+            "move": 0,
+            "attack": 3,
+            "range": 5,
+            "attributes": []
+          }
+      }]},
+     "Valrath Savage": {	
+      "level": [{
+          "level": 0,
+          "normal": {
+            "health": 4,
+            "move": 0,
+            "attack": 2,
+            "range": 4,
+            "attributes": []
+          },
+          "elite": {
+            "health": 7,
+            "move": 0,
+            "attack": 3,
+            "range": 5,
+            "attributes": []
+          }
+      }]},
+      "Valrath Tracker": {	
+      "level": [{
+          "level": 5,
+          "normal": {
+            "health": 8,
+            "move": 3,
+            "attack": 3,
+            "range": 3,
+            "attributes": ["Advantage"]
+          },
+          "elite": {
+            "health": 14,
+            "move": 2,
+            "attack": 4,
+            "range": 6,
+            "attributes": ["%pierce% 1","%push% 1"]
+          }
+      }]},	  
+       "Example Deck": {	
       "level": [{
           "level": 0,
           "normal": {
