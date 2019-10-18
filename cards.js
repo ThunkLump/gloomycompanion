@@ -3,7 +3,7 @@ DECKS =
     ,  	"Valrath Savage":     {name: "Valrath Savage", class: "Scout"}
     ,	"Aesther Scout":      {name: "Aesther Scout", class: "Scout"}
     ,	"Valrath Tracker":    {name: "Valrath Tracker", class: "Scout"}
-    ,	"Ancient Artillery":  {name: "Ancient Artillery", class: "Scout"}
+    ,	"Ancient Artillery":  {name: "Ancient Artillery", class: "Ancient Artillery"}
     ,   "Bandit Archer":      {name: "Bandit Archer", class: "Archer"}
     ,   "Bandit Guard":       {name: "Bandit Guard", class: "Guard"}
     ,   "Black Imp":          {name: "Black Imp", class: "Imp"}
