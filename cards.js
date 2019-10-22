@@ -410,7 +410,7 @@ DECK_DEFINITONS =
             , [false,  "46", "* %move% +0", "* %attack% -1", "** %range% +3"]
             , [false,  "38", "* %move% -1", "* %attack% +0", "** %pierce% 2"]
             , [true,  "60", "* %move% +1", "* %attack% +0", "* Cut off in scan"] 
-	    , [false,  "28", "* %move% +0", "* %attack% -1" "* %attack% -1"] 
+	    , [false,  "28", "* %move% +0", "* %attack% -1", "* %attack% -1"] 
             , [true,  "17", "* %retaliate% 3", "** %range% 3", "* %heal% 1", "** Card cut off in scan"]
             , [false, "72", "* %move% -1", "* NORMAL:<br />%attack% +0", "* ELITE:<br /> %attack% +1 <div style='display: inline-block; width: 0; margin-top: -1.5em; vertical-align: bottom'>%aoe-4-with-black%</div>"]
             ]
