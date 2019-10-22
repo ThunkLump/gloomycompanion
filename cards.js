@@ -423,8 +423,8 @@ DECK_DEFINITONS =
             , [true, "42", "* %move% +1", "* %attack% +0", "* %dark%"]
             , [false, "36", "* %move% -1", "* %attack% +2", "** %fire%%use_element%: %wound%", "** %dark%%use_element%: %curse%"]
             , [false, "09", "* %move% +0", "* %attack% +0", "** %dark%%use_element%: %invisible%<br/><span class='small'>Self</span>"]
-            , [false, "43", "* %push% 1", "** Target all adjacent enemies", "* %attack% +0", "** %range% +0", "** %earth%%use_element%: -2 %range%"]
-            , [false, "02", "* %shield% 1", "* %move% -1", "* %attack% -1", "** %range% +0", "* %any%%use_element%: %air%"]
+            , [false, "17", "* %move% -0", "* %attack% +0", "** %fire%%use_element%: %disarm%"]
+            , [false, "28", "* %move% -1", "* %attack% -1", "** %range% +3"]
             ]
         }
 ];
