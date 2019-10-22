@@ -405,14 +405,14 @@ DECK_DEFINITONS =
         },
 	{ class: "Savage"
         , cards:
-          [ [false, "09", "* %attack% -1", "** %range% +0", "* %heal% 1", "** Self", "* %air%%use_element%: %invisible%<br/><span class='small'>Self</span>"]
-            , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
-            , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
-            , [false, "29", "* %move% +0", "* %attack% -1", "** %range% +0, %target% 2", "** %air%%use_element%: %push% 2"]
-            , [false, "37", "* %move% +0", "* %attack% +0 <div style='display: inline-block; width: 0; margin-top: -1.5em; vertical-align: bottom'>%aoe-4-with-black%</div>", "** %air%%use_element%: +1 Attack <div style='display: inline-block; margin-right: -3em'>%aoe-circle-with-side-black%</div>"]
-            , [false, "43", "* %move% -1", "* %attack% +1", "** %range% +0", "** %air%%use_element%: %target% 2"]
-            , [false, "43", "* %push% 1", "** Target all adjacent enemies", "* %attack% +0", "** %range% +0", "** %earth%%use_element%: -2 %range%"]
-            , [false, "02", "* %shield% 1", "* %move% -1", "* %attack% -1", "** %range% +0", "* %any%%use_element%: %air%"]
+          [ [false, "13", "* %stregthen%", "** Self", "* %attack% +0", "** %wound%", "** Savage suffers 2 damage"]
+            , [false,  "46", "* %move% +0", "* %attack% -1", "** %range% +3"]
+            , [false,  "46", "* %move% +0", "* %attack% -1", "** %range% +3"]
+            , [false,  "38", "* %move% -1", "* %attack% +0", "** %pierce% 2"]
+            , [true,  "60", "* %move% +1", "* %attack% +0", "* Cut off in scan"] 
+	    , [false,  "28", "* %move% +0", "* %attack% -1" "* %attack% -1"] 
+            , [true,  "17", "* %retaliate% 3", "** %range% 3", "* %heal% 1", "** Card cut off in scan"]
+            , [false, "72", "* %move% -1", "* NORMAL:<br />%attack% +0", "* ELITE:<br /> %attack% +1 <div style='display: inline-block; width: 0; margin-top: -1.5em; vertical-align: bottom'>%aoe-4-with-black%</div>"]
             ]
         },
 	{ class: "Ashblade"
