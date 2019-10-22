@@ -11,163 +11,39 @@ MONSTER_STATS = {
       "level": [{
           "level": 0,
           "normal": {
-            "health": 4,
-            "move": 0,
-            "attack": 2,
-            "range": 4,
-            "attributes": []
-          },
-          "elite": {
-            "health": 7,
-            "move": 0,
-            "attack": 3,
-            "range": 5,
-            "attributes": []
-          }
-        },
-        {
-          "level": 1,
-          "normal": {
-            "health": 6,
-            "move": 0,
-            "attack": 2,
-            "range": 4,
-            "attributes": []
-          },
-          "elite": {
-            "health": 9,
-            "move": 0,
-            "attack": 3,
-            "range": 5,
-            "attributes": []
-          }
-        },
-        {
-          "level": 2,
-          "normal": {
-            "health": 7,
-            "move": 0,
-            "attack": 2,
-            "range": 5,
-            "attributes": []
-          },
-          "elite": {
-            "health": 11,
-            "move": 0,
-            "attack": 3,
-            "range": 6,
-            "attributes": []
-          }
-        },
-        {
-          "level": 3,
-          "normal": {
-            "health": 8,
-            "move": 0,
-            "attack": 3,
-            "range": 5,
-            "attributes": []
-          },
-          "elite": {
-            "health": 13,
-            "move": 0,
+            "health": 18,
+            "move": 4,
             "attack": 4,
-            "range": 6,
-            "attributes": []
-          }
-        },
-        {
-          "level": 4,
-          "normal": {
-            "health": 9,
-            "move": 0,
-            "attack": 4,
-            "range": 5,
-            "attributes": []
-          },
-          "elite": {
-            "health": 13,
-            "move": 0,
-            "attack": 4,
-            "range": 6,
+            "range": 0,
             "attributes": [
-              "%target% 2"
-            ]
-          }
-        },
-        {
-          "level": 5,
-          "normal": {
-            "health": 11,
-            "move": 0,
-            "attack": 4,
-            "range": 6,
-            "attributes": []
+              "%poison%"]
           },
           "elite": {
-            "health": 15,
-            "move": 0,
-            "attack": 4,
-            "range": 7,
-            "attributes": [
-              "%target% 2"
-            ]
-          }
-        },
-        {
-          "level": 6,
-          "normal": {
-            "health": 14,
-            "move": 0,
-            "attack": 4,
-            "range": 6,
-            "attributes": []
-          },
-          "elite": {
-            "health": 16,
-            "move": 0,
+            "health": 25,
+            "move": 4,
             "attack": 5,
-            "range": 7,
-            "attributes": [
-              "%target% 2"
-            ]
+            "range": 0,
+            "attributes": [ "Attackers gain Disadvantage",
+              "%poison%"]
           }
-        },
-        {
-          "level": 7,
-          "normal": {
-            "health": 16,
-            "move": 0,
-            "attack": 4,
-            "range": 7,
-            "attributes": []
-          },
-          "elite": {
-            "health": 20,
-            "move": 0,
-            "attack": 5,
-            "range": 7,
-            "attributes": [
-              "%target% 2"
-            ]
-          }}]
+        }]
         },
       "Aesther Scout": {	
       "level": [{
           "level": 0,
           "normal": {
-            "health": 4,
-            "move": 0,
-            "attack": 2,
-            "range": 4,
-            "attributes": []
+            "health": 18,
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+            "attributes": ["%muddle%","%curse%"]
           },
           "elite": {
-            "health": 7,
-            "move": 0,
-            "attack": 3,
-            "range": 5,
-            "attributes": []
+            "health": 26,
+            "move": 4,
+            "attack": 5,
+            "range": 0,
+            "attributes": ["%muddle%","%curse%"]
           }
       }]},
      "Valrath Savage": {	
