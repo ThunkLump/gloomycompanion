@@ -418,11 +418,11 @@ DECK_DEFINITONS =
 	{ class: "Ashblade"
         , cards:
           [ [false, "02", "* <span style="font-size:10px;">Focus on the enemy with the highest initiative</span>","* <span style="font-size:10px;">Teleport to the closest unoccupied hex adjacent to the focus</span>", "* %Attack% -2", "** %dark%"]
-            , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
-            , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
-            , [false, "29", "* %move% +0", "* %attack% -1", "** %range% +0, %target% 2", "** %air%%use_element%: %push% 2"]
-            , [false, "37", "* %move% +0", "* %attack% +0 <div style='display: inline-block; width: 0; margin-top: -1.5em; vertical-align: bottom'>%aoe-4-with-black%</div>", "** %air%%use_element%: +1 Attack <div style='display: inline-block; margin-right: -3em'>%aoe-circle-with-side-black%</div>"]
-            , [false, "43", "* %move% -1", "* %attack% +1", "** %range% +0", "** %air%%use_element%: %target% 2"]
+            , [false,  "24", "* %attack% +3", "** %pierce% 2 "* %fire%"]
+            , [true,  "47", "* %move% +1", "* %attack% +0", "* %fire%"]
+            , [true, "42", "* %move% +1", "* %attack% +0", "* %dark%"]
+            , [false, "36", "* %move% -1", "* %attack% +2", "** %fire%%use_element%: %wound%", "** %dark%%use_element%: %curse%"]
+            , [false, "09", "* %move% +0", "* %attack% +0", "** %dark%%use_element%: %invisible%<br/><span class='small'>Self</span>"]
             , [false, "43", "* %push% 1", "** Target all adjacent enemies", "* %attack% +0", "** %range% +0", "** %earth%%use_element%: -2 %range%"]
             , [false, "02", "* %shield% 1", "* %move% -1", "* %attack% -1", "** %range% +0", "* %any%%use_element%: %air%"]
             ]
