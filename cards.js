@@ -405,7 +405,7 @@ DECK_DEFINITONS =
         },
 	{ class: "Savage"
         , cards:
-          [ [false, "13", "* %stregthen%", "** Self", "* %attack% +0", "** %wound%", "** Savage suffers 2 damage"]
+          [ [false, "13", "* %strengthen%", "** Self", "* %attack% +0", "** %wound%", "** Savage suffers 2 damage"]
             , [false,  "46", "* %move% +0", "* %attack% -1", "** %range% +3"]
             , [false,  "46", "* %move% +0", "* %attack% -1", "** %range% +3"]
             , [false,  "38", "* %move% -1", "* %attack% +0", "** %pierce% 2"]
