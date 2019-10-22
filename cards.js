@@ -417,7 +417,7 @@ DECK_DEFINITONS =
         },
 	{ class: "Ashblade"
         , cards:
-          [ [false, "09", "* %attack% -1", "** %range% +0", "* %heal% 1", "** Self", "* %air%%use_element%: %invisible%<br/><span class='small'>Self</span>"]
+          [ [false, "02", "* Focus on the enemy with the highest initiative","* Teleport to the closest unoccupied hex adjacent to the focus", "* %Attack% -2", "** %dark%"]
             , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
             , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
             , [false, "29", "* %move% +0", "* %attack% -1", "** %range% +0, %target% 2", "** %air%%use_element%: %push% 2"]
