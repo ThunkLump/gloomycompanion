@@ -393,14 +393,14 @@ DECK_DEFINITONS =
         },
 	{ class: "Tracker"
         , cards:
-          [ [false, "09", "* %attack% -1", "** %range% +0", "* %heal% 1", "** Self", "* %air%%use_element%: %invisible%<br/><span class='small'>Self</span>"]
-            , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
-            , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
-            , [false, "29", "* %move% +0", "* %attack% -1", "** %range% +0, %target% 2", "** %air%%use_element%: %push% 2"]
-            , [false, "37", "* %move% +0", "* %attack% +0 <div style='display: inline-block; width: 0; margin-top: -1.5em; vertical-align: bottom'>%aoe-4-with-black%</div>", "** %air%%use_element%: +1 Attack <div style='display: inline-block; margin-right: -3em'>%aoe-circle-with-side-black%</div>"]
-            , [false, "43", "* %move% -1", "* %attack% +1", "** %range% +0", "** %air%%use_element%: %target% 2"]
-            , [false, "43", "* %push% 1", "** Target all adjacent enemies", "* %attack% +0", "** %range% +0", "** %earth%%use_element%: -2 %range%"]
-            , [false, "02", "* %shield% 1", "* %move% -1", "* %attack% -1", "** %range% +0", "* %any%%use_element%: %air%"]
+          [ [true, "69", "* %attack% +1", "* %heal% 1", "** %regenerate%", "** Self"]
+            , [false,  "55", "<span style='font-size:10px;'>ELITE: Focus on the enemy with the highest current hit point value. Probably Alex.</span>", "* %move% +0", "* %attack% -1", "** %wound%]
+            ,  [false,  "48", "<span style='font-size:10px;'>ELITE: Focus on the enemy with the highest current hit point value. Probably Alex.</span>", "* %move% +1", "* %attack% +0"]
+            , [false, "37", "* %move% -1", "* %attack% +0", "** %range% +1", "** %immobilize%"]
+            , [true, "33", "* %move% +0", "* %attack% +0", "** %range% +1" "** %pierce% 1"]
+            , [false, "27", "* %move% +0", "* %attack% +0"]
+            , [false, "18", "* %move% +1", "* %attack% +1", "<span style='font-size:10px;'>Create one %disarm% trap in any adjacent hex closest to an enemy</span>"]
+            , [false, "12", "* %move% +0", "* %attack% +0", "** %muddle%]
             ]
         },
 	{ class: "Savage"
@@ -409,22 +409,22 @@ DECK_DEFINITONS =
             , [false,  "46", "* %move% +0", "* %attack% -1", "** %range% +3"]
             , [false,  "46", "* %move% +0", "* %attack% -1", "** %range% +3"]
             , [false,  "38", "* %move% -1", "* %attack% +0", "** %pierce% 2"]
-            , [true,  "60", "* %move% +1", "* %attack% +0", "* Cut off in scan"] 
+            , [false,  "60", "* %move% +2", "* %attack% +0", "* ELITE<br />%attack% +0"] 
 	    , [false,  "28", "* %move% +0", "* %attack% -1", "* %attack% -1"] 
-            , [true,  "17", "* %retaliate% 3", "** %range% 3", "* %heal% 1", "** Card cut off in scan"]
+            , [true,  "17", "* %retaliate% 3", "** %range% 3", "* %heal% 1", "** %regenerate%", "** Self"]
             , [false, "72", "* %move% -1", "* NORMAL:<br />%attack% +0", "* ELITE:<br /> %attack% +1 <div style='display: inline-block; width: 0; margin-top: -1.5em; vertical-align: bottom'>%aoe-4-with-black%</div>"]
             ]
         },
 	{ class: "Ashblade"
         , cards:
-          [ [false, "02", "* <span style='font-size:10px;'>Focus on the enemy with the highest initiative</span>","* <span style='font-size:10px;'>Teleport to the closest unoccupied hex adjacent to the focus</span>", "* %Attack% -2", "** %dark%"]
+          [ [false, "02", "* <span style='font-size:10px;'>Focus on the enemy with the highest initiative</span>","* <span style='font-size:10px;'>%teleport% to the closest unoccupied hex adjacent to the focus</span>", "* %Attack% -2", "** %dark%"]
             , [false,  "24", "* %attack% +3", "** %pierce% 2", "* %fire%"]
             , [true,  "47", "* %move% +1", "* %attack% +0", "* %fire%"]
             , [true, "42", "* %move% +1", "* %attack% +0", "* %dark%"]
             , [false, "36", "* %move% -1", "* %attack% +2", "** %fire%%use_element%: %wound%", "** %dark%%use_element%: %curse%"]
             , [false, "09", "* %move% +0", "* %attack% +0", "** %dark%%use_element%: %invisible%<br/><span class='small'>Self</span>"]
             , [false, "17", "* %move% -0", "* %attack% +0", "** %fire%%use_element%: %disarm%"]
-            , [false, "28", "* %move% -1", "* %attack% -1", "** %range% +3"]
+            , [false, "28", "* %move% -1", "* %attack% -1", "** %range% +3", "** %immobilize%]
             ]
         }
 ];
