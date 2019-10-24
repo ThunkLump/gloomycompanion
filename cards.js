@@ -424,7 +424,7 @@ DECK_DEFINITONS =
             , [false, "36", "* %move% -1", "* %attack% +2", "** %fire%%use_element%: %wound%", "** %dark%%use_element%: %curse%"]
             , [false, "09", "* %move% +0", "* %attack% +0", "** %dark%%use_element%: %invisible%<br/><span class='small'>Self</span>"]
             , [false, "17", "* %move% -0", "* %attack% +0", "** %fire%%use_element%: %disarm%"]
-            , [false, "28", "* %move% -1", "* %attack% -1", "** %range% +3", "** %immobilize%]
+            , [false, "28", "* %move% -1", "* %attack% -1", "** %range% +3", "** %immobilize%"]
             ]
         }
 ];
