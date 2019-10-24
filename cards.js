@@ -394,7 +394,7 @@ DECK_DEFINITONS =
 	{ class: "Tracker"
         , cards:
           [ [true, "69", "* %attack% +1", "* %heal% 1", "** %regenerate%", "** Self"]
-            , [false,  "55", "<span style='font-size:10px;'>ELITE: Focus on the enemy with the highest current hit point value. Probably Alex.</span>", "* %move% +0", "* %attack% -1", "** %wound%]
+            , [false,  "55", "<span style='font-size:10px;'>ELITE: Focus on the enemy with the highest current hit point value. Probably Alex.</span>", "* %move% +0", "* %attack% -1", "** %wound%"]
             ,  [false,  "48", "<span style='font-size:10px;'>ELITE: Focus on the enemy with the highest current hit point value. Probably Alex.</span>", "* %move% +1", "* %attack% +0"]
             , [false, "37", "* %move% -1", "* %attack% +0", "** %range% +1", "** %immobilize%"]
             , [true, "33", "* %move% +0", "* %attack% +0", "** %range% +1" "** %pierce% 1"]
