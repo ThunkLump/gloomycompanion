@@ -397,7 +397,7 @@ DECK_DEFINITONS =
             , [false,  "55", "<span style='font-size:10px;'>ELITE: Focus on the enemy with the highest current hit point value. Probably Alex.</span>", "* %move% +0", "* %attack% -1", "** %wound%"]
             ,  [false,  "48", "<span style='font-size:10px;'>ELITE: Focus on the enemy with the highest current hit point value. Probably Alex.</span>", "* %move% +1", "* %attack% +0"]
             , [false, "37", "* %move% -1", "* %attack% +0", "** %range% +1", "** %immobilize%"]
-            , [true, "33", "* %move% +0", "* %attack% +0", "** %range% +1" "** %pierce% 1"]
+            , [true, "33", "* %move% +0", "* %attack% +0", "** %range% +1", "** %pierce% 1"]
             , [false, "27", "* %move% +0", "* %attack% +0"]
             , [false, "18", "* %move% +1", "* %attack% +1", "<span style='font-size:10px;'>Create one %disarm% trap in any adjacent hex closest to an enemy</span>"]
             , [false, "12", "* %move% +0", "* %attack% +0", "** %muddle%]
