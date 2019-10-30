@@ -399,7 +399,7 @@ DECK_DEFINITONS =
             , [false, "37", "* %move% -1", "* %attack% +0", "** %range% +1", "** %immobilize%"]
             , [true, "33", "* %move% +0", "* %attack% +0", "** %range% +1", "** %pierce% 1"]
             , [false, "27", "* %move% +0", "* %attack% +0"]
-            , [false, "18", "* %move% +1", "* %attack% +1", "<span style='font-size:10px;'>Create one %disarm% trap in any adjacent hex closest to an enemy</span>"]
+            , [false, "18", "* %move% +1", "* %attack% +1", "* <span style='font-size:80%;'>Create one %disarm% trap in any adjacent hex closest to an enemy</span>"]
             , [false, "12", "* %move% +0", "* %attack% +0", "** %muddle%"]
             ]
         },
