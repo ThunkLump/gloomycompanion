@@ -50,36 +50,36 @@ MONSTER_STATS = {
       "level": [{
           "level": 0,
           "normal": {
-            "health": 4,
-            "move": 0,
-            "attack": 2,
-            "range": 4,
-            "attributes": []
+            "health": 11,
+            "move": 3,
+            "attack": 3,
+            "range": 0,
+            "attributes": ["%shield% 2"]
           },
           "elite": {
-            "health": 7,
-            "move": 0,
-            "attack": 3,
-            "range": 5,
-            "attributes": []
+            "health": 21,
+            "move": 3,
+            "attack": 5,
+            "range": 0,
+            "attributes": ["All adjacent allies add +2 to all attacks"]
           }
       }]},
       "Valrath Tracker": {	
       "level": [{
           "level": 0,
           "normal": {
-            "health": 4,
-            "move": 0,
-            "attack": 2,
-            "range": 4,
-            "attributes": []
+            "health": 12,
+            "move": 4,
+            "attack": 4,
+            "range": 3,
+            "attributes": ["Advantage"]
           },
           "elite": {
-            "health": 7,
-            "move": 0,
-            "attack": 3,
-            "range": 5,
-            "attributes": []
+            "health": 18,
+            "move": 3,
+            "attack": 5,
+            "range": 7,
+            "attributes": ["%pierce% 2", "%push% 1"]
           }
       },{
           "level": 5,
